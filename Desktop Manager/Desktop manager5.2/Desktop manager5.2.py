@@ -230,7 +230,7 @@ def main():
         n = easygui.choicebox(msg="请选择功能",
                               choices=["打开", "质数判断", "随机数(全新升级）", "加密解密", "抛硬币模拟器", "文件夹生成",
                                "退出"], title="Desktop Manager 5.2")
-        if n == "随机数":
+        if n == "随机数(全新升级）":
             xuijishu()
 
         elif n == "打开":
